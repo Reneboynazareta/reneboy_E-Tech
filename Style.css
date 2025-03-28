@@ -9,7 +9,7 @@ header{
  background:#0073e6;
  color:white;
  text-align:align:center;
- padding:20px 0
+ padding:20px 0;
 }
 nav{
  display:flex;
@@ -22,19 +22,19 @@ nav a{
  text-decoration:none;
  padding:10px20px;
  margin:0 10px;
- transition:background 0.3s
+ transition:background 0.3s;
 }
 nav a:hover{
  background:#003f7f;
  border-radius:5px;
 }
  .container{
- width:80%
+ width:80%;
  margin:20px auto;
  padding:20px;
  background;white;
  border-radius:10px;
- box-shadow:0 0 10px rgba(0,0,0,0.1)
+ box-shadow:0 0 10px rgba(0,0,0,0.1);
 }
 .profile{
  display:flex;
@@ -59,7 +59,7 @@ ul{
 }
 Ul li{
  background:#e3f2fd;
- margin:5px 0
+ margin:5px 0;
  padding:10px;
  border-radius:5px;
 }
@@ -68,7 +68,7 @@ form{
  flex-direction:column;
 }
 form label{
- margin-top:10px
+ margin-top:10px;
 }
 form input,form textarea{
  width:100%;
