@@ -5,18 +5,21 @@ body{
  background-color:#f4f4f4;
  color:#333;
 }
+
 header{
- background:#0073e6;
+ background: #0073e6;
  color:white;
  text-align:center;
- padding:20px0;
+ padding:20px 0;
 }
+
 nav{
  display:flex;
  justify-content:center;
- background:#005bb5;
- padding:10px;
+ background: #005bb5;
+ padding: 10px;
 } 
+
 nav a{
  color:white;
  text-decoration:none;
@@ -24,10 +27,12 @@ nav a{
  margin:0 10px;
  transition:background 0.3s;
 }
+
 nav a:hover{
  background:#003f7f;
  border-radius:5px;
 }
+
 .container{
   width:80%;
   margin:20px auto;
@@ -36,11 +41,13 @@ nav a:hover{
   border-radius:10px;
   box-shadow:0 0 10pxrgba (0,0,0,0.1);
 }
+
 .profile{
   display:flex;
   align-items:center;
   gap:20px;
 }
+
 .profile-img{
   width:150px;
   height:150px;
@@ -48,27 +55,33 @@ nav a:hover{
   object-fit:cover;
   border:3px solid #0073e6;
 }
+
 h2{
  border-bottom:2px solid #0073e6;
  padding-bottom:5px;
 }
+
 ul{
  list-style:none;
  padding:0;
 }
+
 Ul li{
  background:#e3f2fd;
  margin:5px 0;
  padding:10px;
  border-radius:5px;
 }
+
 form{
  display:flex;
  flex-direction:column;
 }
+
 form label{
  margin-top:10px;
 }
+
 form input,form textarea{
  width:100%;
  padding:10px;
@@ -76,6 +89,7 @@ form input,form textarea{
  border:1px solid #ccc;
  border-radius:5px;
 }
+
 button{
  background:#0073e6;
  color:white;
@@ -86,9 +100,11 @@ button{
  border-radius:5px;
  transition:background 0.3s;
 }
+
 button:hover{
  background:#005bb5;
 }
+
 footer{
  text-align:center;
  padding:20px;
