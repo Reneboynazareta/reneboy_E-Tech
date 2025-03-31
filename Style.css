@@ -1,13 +1,13 @@
 body{
- font-family:Arial,sans-serif;
+ font-family: Arial, sans-serif;
  margin: 0;
  padding: 0;
- background-color: #f4f4f4;
- color: #333;
+ background-color:#f4f4f4;
+ color:#333;
 }
 
 header{
- background: #0073e6;
+ background:#0073e6;
  color:white;
  text-align:center;
  padding:20px 0;
@@ -23,13 +23,13 @@ nav{
 nav a{
  color:white;
  text-decoration:none;
- padding: 10px20px;
+ padding:10px20px;
  margin:0 10px;
  transition:background 0.3s;
 }
 
 nav a:hover{
- background: #003f7f;
+ background:#003f7f;
  border-radius:5px;
 }
 
